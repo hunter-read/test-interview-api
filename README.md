@@ -1,7 +1,8 @@
 # Development Guide
-Requirements: python3
+* Requirements: python3
+* DB initialization: Create Database gm.db with database/alter1.sql then execute `python3 initialize_db.py`
 
-Setup:
+#### Setup Server:
 1. Install flask: `python3 -m pip install -r requirements.txt`
 2. Run the server: `python3 -m flask run `
 3. Server will be running on http://127.0.0.1:5000
